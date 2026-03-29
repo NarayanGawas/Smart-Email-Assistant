@@ -87,11 +87,11 @@ if(!response.ok){
  }
 }catch(error){
     console.error(error);
-   console.error('Failed to generate AI reply');
+   console.error('Failed to generates AI reply');
  }finally{
   button.innerHTML='AI-Reply';
   button.disabled=false;
-  
+
  }
 
 });
